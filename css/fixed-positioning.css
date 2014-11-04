@@ -23,8 +23,24 @@ html, body {
    	background-position: 0 0;
    	background-repeat: no-repeat;
    	background-attachment: fixed;
+   	text-align: center;
    	}
 
+#central-image {
+	width:250px;
+	height:180px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-image: url("../img/mex.png"); 	
+	position: fixed;
+	left: 40%;
+	top: 30%;
+	
+
+	
+}
 .skrollable {
 	/*
 	 * First-level skrollables are positioned relative to window
