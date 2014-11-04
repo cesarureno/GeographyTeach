@@ -8,11 +8,17 @@
 	<link href="css/fixed-positioning.css" rel="stylesheet" type="text/css" />
 
 	<style type="text/css">
+	body{
+		background-color: #000;
+	}
 	#thing {
-		width:32px;
-		height:32px;
-		border-radius:16px;
-		background:#000;
+		width:190px;
+		height:128px;
+		background-image: url("img/mex.png");
+		-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
 	}
 	</style>
 </head>
@@ -20,8 +26,6 @@
 <body>
 	<div id="background"><div id="central-image" class="skrollable skrollable-between"></div></div>
 	<div id="thing" data-0="left[cos]:10%;top[sin]:10%;" data-10000="left:90%;top:90%;"></div>
-
-	
 
 	<script type="text/javascript" src="dist/skrollr.min.js"></script>
 	<script type="text/javascript">
