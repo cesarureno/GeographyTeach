@@ -8,23 +8,28 @@
 	<link href="css/fixed-positioning.css" rel="stylesheet" type="text/css" />
 
 	<style type="text/css">
-	body{
-		background-color: #000;
-	}
 	#thing {
-		width:190px;
-		height:128px;
-		background-image: url("img/mex.png");
-		-webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
+		width:32px;
+		height:32px;
+		border-radius:16px;
+		background:#000;
 	}
 	</style>
 </head>
 
 <body>
-	<div id="background"><div id="central-image" class="skrollable skrollable-between"></div></div>
+	<div id="background">
+		<div id="central-image" class="skrollable skrollable-between"></div>
+		
+		<div id="himno" data-0="opacity:0;" data-1000="opacity:0.93;"><b>Himno</b></div>
+		<div id="capital" data-1300="opacity:0;" data-2300="opacity:0.93;"><b>Capital</b></div>
+		<div id="poblacion" data-2600="opacity:0;" data-3600="opacity:0.93;">Población</div>
+		<div id="idioma" data-3900="opacity:0;" data-4900="opacity:0.93;"><b>Idioma</b></div>
+		<div id="moneda" data-5200="opacity:0;" data-6200="opacity:0.93;"><b>Moneda</b></div>
+		<div id="superficie" data-6500="opacity:0;" data-7500="opacity:0.93;"><b>Superficie</b></div>
+		<div id="continente" data-7800="opacity:0;" data-8800="opacity:0.93;"><b>Continente</b></div>
+		
+	</div>
 	<div id="thing" data-0="left[cos]:10%;top[sin]:10%;" data-10000="left:90%;top:90%;"></div>
 
 	<script type="text/javascript" src="dist/skrollr.min.js"></script>
@@ -44,6 +49,14 @@
 				this.setScrollTop(0, true);
 			}
 		}
+	});
+	$( window ).resize(function() {
+ 		var maxWidth = $(window).width();
+ 		var maxHeight = $(window).height();
+ 		$('.welcome, .intro, .sign-up').css({
+        	width: maxWidth,
+        	height: maxHeight
+		});   
 	});
 	</script>
 </body>

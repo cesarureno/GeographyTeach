@@ -36,11 +36,100 @@ html, body {
 	background-image: url("../img/mex.png"); 	
 	position: fixed;
 	left: 40%;
-	top: 30%;
-	
-
-	
+	top: 30%;	
 }
+#himno{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #FA7A15;
+    left: 75%;
+	top: 10%;	
+	color: #fff;
+}
+#capital{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #31D009;
+    left: 82%;
+	top: 45%;	
+	color: #fff;
+}
+#poblacion{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #31D009;
+    left: 75%;
+	top: 80%;	
+	color: #fff;
+}
+#idioma{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #FF2316;
+    left: 45%;
+	top: 85%;	
+	color: #fff;
+}
+#moneda{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #FF2316;
+    left: 15%;
+	top: 80%;	
+	color: #fff;
+}
+#superficie{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #065EB2;
+    left: 5%;
+	top: 45%;	
+	color: #fff;
+}
+#continente{
+	border-radius: 5px;
+	width:200px;
+	height:80px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #065EB2;
+    left: 10%;
+	top: 10%;	
+	color: #fff;
+}
+
 .skrollable {
 	/*
 	 * First-level skrollables are positioned relative to window
